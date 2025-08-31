@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>はじめてのWebサイト</title>
+    <title>Taro Yamada's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    こんにちは私のWebサイトへようこそ!<br>
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Taro Yamada</h1>
+            <p class="fade-in-delay">Web Developer & Designer</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="container">
+            <h2 class="section-title">About Me</h2>
+            <p>ここに自己紹介文を入れます。ウェブ開発とデザインに情熱を注いでいます。シンプルで美しいデザインと、ユーザーにとって使いやすいプロダクトを作ることを心がけています。</p>
+        </section>
+
+        <section id="skills" class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML & CSS</li>
+                        <li>JavaScript (React, Vue)</li>
+                        <li>TypeScript</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python (Django, Flask)</li>
+                        <li>Go</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Design</h3>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Sketch</li>
+                        <li>Adobe XD</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2 class="section-title">Contact</h2>
+            <p>お仕事のご依頼やご相談は、以下のリンクからお気軽にご連絡ください。</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Taro Yamada. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
